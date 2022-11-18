@@ -41,38 +41,3 @@ class GamessWidget extends StatelessWidget {
     );
   }
 }
-
-/*
-      child: Container(
-        padding: const EdgeInsets.all(10.0),
-        height: 80.0,
-        child: Row(
-          children: [
-            Expanded(
-              flex: 1,
-              child: Container(
-                height: 12.0,
-                decoration: BoxDecoration(
-                    color: email.read ? Colors.transparent : primaryColor,
-                    shape: BoxShape.circle),
-              ),
-            ),
-            Expanded(
-              flex: 9,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(email.dateTime.toString().substring(0, 10),
-                      style: dateTextStyle),
-                  Text(email.from, style: fromTextStyle),
-                  Text(email.subject, style: subjectTextStyle),
-                ],
-              ),
-            )
-          ],
-        ),
-      ),
-    );
-  }
-}*/
